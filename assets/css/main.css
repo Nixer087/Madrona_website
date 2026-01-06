@@ -223,7 +223,8 @@ input, select, textarea {
 		}
 
 		header p {
-			padding-top: 10em; 
+			padding-top: 10em;
+			padding-top: 10rem;
 			display: block;
 			margin: 0;
 			padding: 0.25em 0 0.5em 0;
