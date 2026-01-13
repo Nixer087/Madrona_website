@@ -72,6 +72,28 @@ input, select, textarea {
 	appearance: none;
 }
 
+#lang-switch {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+	#lang-switch a {
+		display: inline-block;
+		background: rgba(0,0,0,0.6);
+		color: white;
+		text-decoration: none;
+		margin-left: 6px;
+		padding: 6px 10px;
+		font-size: 12px;
+	}
+
+		#lang-switch a:hover {
+			background: rgba(255,255,255,0.8);
+			color: black;
+		}
+
 /* Basic */
 
 	@-ms-viewport {
