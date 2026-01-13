@@ -4,7 +4,7 @@
 			<stop offset="10%" stop-color="#ea8a23" stop-opacity="1"/>
 			<stop offset="50%" stop-color="#b6233f" stop-opacity="1"/>
 			<stop offset="90%" stop-color="#102e37" stop-opacity="1"/>
-		</linearGradient>
+		</linearGradient> 
 	</defs>
 	<rect x="0" y="0" width="100%" height="100%" style="fill:url(#grad1);" />
 </svg>
