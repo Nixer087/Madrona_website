@@ -1982,7 +1982,18 @@ input, select, textarea {
 	.dark form :-ms-input-placeholder {
 		color: rgba(255, 255, 255, 0.85) !important;
 	}
+/*text*/
+	.text-left-tight {
+		text-align: left;
+		padding-left: 0;
+	}
 
+	.text-left-tight p {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+		
 /* Table */
 
 	table {
