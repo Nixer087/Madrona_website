@@ -2285,22 +2285,27 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), url("../../images/bg01.jpg");
-				background-size: auto, auto, auto, cover;
-				background-position: top right, bottom left, top left, center center;
-				background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+				background-image: url("../../images/bg01.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), url("../../images/bg02.jpg");
-				background-size: auto, auto, auto, cover;
-				background-position: top right, bottom left, top left, center center;
-				background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+				background-image: url("../../images/bg02.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
 			}
 
+			/* If you use style3 too, pick one of them or add bg03.jpg */
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), url("../../images/bg01.jpg");
+				background-image: url("../../images/bg01.jpg");
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
 			}
+
 
 			.main > .content.style4 {
 				padding-top: 0;
