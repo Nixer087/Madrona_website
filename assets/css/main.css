@@ -2254,7 +2254,7 @@ input, select, textarea {
 	}
 
 		.main > header {
-			background: #fff;
+			background: #194c59;
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
@@ -2311,6 +2311,12 @@ input, select, textarea {
 				padding-top: 0;
 				background: #fff;
 			}
+/* Make the text in the first section white */
+#first .text-block,
+#first .text-block h1,
+#first .text-block p {
+	color: #fff;
+}
 
 /* Footer */
 
