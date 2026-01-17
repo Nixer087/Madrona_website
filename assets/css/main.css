@@ -2164,6 +2164,17 @@ input, select, textarea {
 			background: #666;
 			margin-left: -0.5px;
 		}
+		.feature-icon .feature-img {
+			width: 4.5em;
+			height: 4.5em;
+			object-fit: contain;
+			display: block;
+			margin: 0 auto;
+		}
+		.feature-icon .feature-img {
+			border-radius: 50%;
+		}
+
 
 	.dark .feature-icon .icon {
 		background: rgba(255, 255, 255, 0.15);
