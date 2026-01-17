@@ -2550,6 +2550,13 @@ input, select, textarea {
 				#header > header {
 					padding: 0 1em 0 1em;
 				}
+		/* Contact section header text to white */
+		#fourth > header,
+		#fourth > header h2,
+		#fourth > header p {
+			color: #fff;
+		}
+
 
 		/* Main Sections */
 
