@@ -2165,12 +2165,13 @@ input, select, textarea {
 			margin-left: -0.5px;
 		}
 		.feature-icon .feature-img {
-			width: 4.5em;
-			height: 4.5em;
+			width: 2em;
+			height: 2em;
 			object-fit: contain;
 			display: block;
 			margin: 0 auto;
 		}
+		
 		.feature-icon .feature-img {
 			border-radius: 50%;
 		}
