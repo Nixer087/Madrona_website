@@ -338,15 +338,14 @@ input, select, textarea {
 			}
 		}
 
-
-/* Row */
-
-	.row {
-		display: flex;
-		flex-wrap: wrap;
-		box-sizing: border-box;
-		align-items: stretch;
-	}
+		background-position: center left;
+		/* Row */
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			box-sizing: border-box;
+			align-items: stretch;
+		}
 
 		.row > * {
 			box-sizing: border-box;
