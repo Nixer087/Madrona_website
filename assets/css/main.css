@@ -310,6 +310,10 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 736px) {
+		 #header {
+			background-image: url("../../images/header.jpg"); /* no overlay */
+		}
 
 /* Row */
 
