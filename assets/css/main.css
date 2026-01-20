@@ -2589,3 +2589,7 @@ input, select, textarea {
 				}
 
 	}
+
+	#third header{
+		display: none;
+	}
