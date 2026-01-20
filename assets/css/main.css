@@ -279,6 +279,7 @@ input, select, textarea {
 			width: 1020px;
 		}
 
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -310,6 +311,33 @@ input, select, textarea {
 			}
 
 		}
+		@media screen and (max-width: 736px) {
+			html, body {
+				overflow-x: hidden;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			.row {
+				margin-left: -10px !important;
+				margin-right: -10px !important;
+			}
+
+				.row > * {
+					padding-left: 10px !important;
+					padding-right: 10px !important;
+				}
+		}
+
+		@media screen and (max-width: 736px) {
+			#header,
+			.main > .content.style1,
+			.main > .content.style2,
+			.main > .content.style3 {
+				background-position: center center !important;
+			}
+		}
+
 
 /* Row */
 
