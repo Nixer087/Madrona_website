@@ -2228,18 +2228,19 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-		position: relative;
-		margin: 0;
-		transform: translateY(150px);
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
-		background-size: auto, cover;
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
-		text-align: center;
-		color: #fff;
-	}
+#header {
+	position: relative;
+	margin: 0;
+	transform: translateY(150px);
+	background-image: url("images/overlay.png"), url("../../images/header.jpg");
+	background-size: auto, cover;
+	background-position: top left, center center;
+	background-repeat: repeat, no-repeat;
+	padding-top: 0;
+	padding-bottom: 14em;
+	text-align: center;
+	color: #fff;
+}
 
 		#header header h1 {
 			margin-top: 5.5em;
