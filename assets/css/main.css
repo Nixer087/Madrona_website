@@ -2611,39 +2611,40 @@ input, select, textarea {
 	#third header{
 		display: none;
 	}
-/* FORCE RED BUTTONS (override template + dark sections) */
+/* RED BUTTON, BUT STILL LOOKS LIKE A BUTTON */
+#header a.button,
 a.button,
-.button,
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button {
+.button {
 	background-color: #e53935 !important;
 	background-image: none !important;
 	color: #fff !important;
-	border: 0 !important;
-	box-shadow: none !important;
+	/* restore button feel */
+	border-radius: 0.35em;
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25), 0 0.25em 0.75em rgba(0,0,0,0.25);
+	padding: 0.85em 3em;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	text-transform: none;
 }
 
 	/* Hover */
+	#header a.button:hover,
 	a.button:hover,
-	.button:hover,
-	input[type="button"]:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	button:hover {
+	.button:hover {
 		background-color: #ff5252 !important;
+		box-shadow: inset 0 0 0 1px rgba(255,255,255,0.35), 0 0.35em 1em rgba(0,0,0,0.28);
 	}
 
-/* Dark sections also override buttons in this template */
-.dark a.button,
-.dark .button,
-.dark input[type="submit"],
-.dark input[type="reset"],
-.dark button {
-	background-color: #e53935 !important;
-	background-image: none !important;
-	color: #fff !important;
+/* Keep it clickable and above any header overlay weirdness */
+#header footer {
+	position: relative;
+	z-index: 10;
 }
+
+#header a.button {
+	position: relative;
+	z-index: 11;
+}
+
 
 
