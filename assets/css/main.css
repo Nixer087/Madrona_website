@@ -2646,5 +2646,17 @@ a.button,
 	z-index: 11;
 }
 
+@font-face {
+	font-family: "HV Woodlands";
+	src: url("../webfonts/HV Woodlands.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+h1, h2, h3 {
+	font-family: "HV Woodlands", sans-serif;
+}
+
 
 
