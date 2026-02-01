@@ -2686,3 +2686,6 @@ h1, h2, h3 {
 	letter-spacing: 0.04em;
 	text-transform: none;
 }
+#header header h1,
+#header header h2 {
+	font-family: "HV Woodlands", serif;
