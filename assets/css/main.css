@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+﻿@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 /*
@@ -2731,7 +2731,13 @@ h2 {
 	font-family: 'Font Awesome 5 Brands';
 }
 
-#footer {
-	font-size: 0.9rem;
-	line-height: 1.6;
+/* Contact form section → Roboto */
+.content.style4,
+.content.style4 input,
+.content.style4 textarea,
+.content.style4 button,
+.content.style4 .button,
+.content.style4 label,
+.content.style4 p {
+	font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
