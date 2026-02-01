@@ -2697,3 +2697,26 @@ h2 {
 		background: url("../../images/bg03-mobile.jpg") center center / cover no-repeat;
 	}
 }
+/* Mobile: static BG, scroll text inside third section */
+@media screen and (max-width: 736px) {
+	#third .content.style3 {
+		/* keep your existing background */
+		position: relative;
+	}
+
+	#third .third-scroll {
+		max-height: 70vh; /* how tall the scroll area is */
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		/* optional: nicer readability over a busy bg */
+		background: rgba(0,0,0,0.25);
+		padding: 1.25em;
+		border-radius: 0.5em;
+	}
+}
+@media screen and (max-width: 736px) {
+	#third .third-scroll p {
+		line-height: 1.8;
+		font-size: 1rem;
+	}
+}
