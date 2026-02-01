@@ -2741,3 +2741,15 @@ h2 {
 .content.style4 p {
 	font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
+.big-centered {
+	text-align: center;
+	font-size: 3rem; /* adjust to taste */
+	line-height: 1.2;
+	margin: 1.5em auto;
+	color: white;
+}
+@media screen and (max-width: 736px) {
+	.big-centered {
+		font-size: 2.2rem;
+	}
+}
