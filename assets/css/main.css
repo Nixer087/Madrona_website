@@ -2667,4 +2667,14 @@ h1, h2, h3 {
 	letter-spacing: normal !important;
 }
 
+/* Headers inside third section keep HV Woodlands */
+.third-roboto h1,
+.third-roboto h2,
+.third-roboto h3,
+.third-roboto h4,
+.third-roboto h5,
+.third-roboto h6 {
+	font-family: "HV Woodlands", serif;
+	letter-spacing: 0.04em;
+}
 
