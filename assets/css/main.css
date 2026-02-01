@@ -2334,8 +2334,9 @@ input, select, textarea {
 			/* If you use style3 too, pick one of them or add bg03.jpg */
 			.main > .content.style3 {
 				background-image: url("../../images/bg03.jpg");
+				background-attachment: fixed;
 				background-size: cover;
-				background-position: center center;
+				background-position: center;
 				background-repeat: no-repeat;
 			}
 
