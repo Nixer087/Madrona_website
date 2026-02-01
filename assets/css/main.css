@@ -2692,3 +2692,8 @@ h2 {
 	font-family: "HV Woodlands", serif;
 	letter-spacing: 0.04em;
 }
+@media screen and (max-width: 736px) {
+	#third .content {
+		background: url("../../images/bg03-mobile.jpg") center center / cover no-repeat;
+	}
+}
