@@ -2660,4 +2660,14 @@ h1, h2, h3 {
 }
 
 
+/* Third section uses Roboto only */
+#third,
+#third p,
+#third li,
+#third span,
+#third a,
+#third input,
+#third textarea {
+	font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+}
 
