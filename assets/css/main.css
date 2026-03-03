@@ -2285,10 +2285,10 @@ input, select, textarea {
 	.main {
 		position: relative;
 		margin: 0;
-	}
+	} 
 
 		.main > header {
-			background: #b36b00;
+			background: #b46c00;
 			text-align: center;
 			padding: 5em 0 5em 0;
 			margin: 0;
